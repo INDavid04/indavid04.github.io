@@ -23,7 +23,7 @@ body {
 
 a {
   padding: 0.2rem;
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
   transition: 0.2s;
 }
@@ -279,6 +279,10 @@ a:hover {
 /*  timestamp: 15:10 - TODO: | 08:00-12:00                */
 /*                                                        */
 /**********************************************************/
+.HomePage h2 {
+  text-align: center;
+}
+
 .About {
   width: -moz-fit-content;
   width: fit-content;
@@ -306,7 +310,7 @@ a:hover {
 }
 
 .Title {
-  margin: 5rem 0 0;
+  margin: 0;
   width: -moz-fit-content;
   width: fit-content;
 }
