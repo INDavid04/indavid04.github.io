@@ -1,17 +1,3 @@
-//////////////
-/// Useful ///
-//////////////
-
-/// Web safe fonts:
-///     sans-serif: Arial, Verdana, Tahoma, Trebuchet MS; 
-///     serif: Times New Roman, Georgia, Garamondd; 
-///     mono/cursive: Courier New, Brush Script MT 
-/// Center vertically:
-///     .container { height: 200px; position: relative; border: 3px solid green; } 
-///     .vertical-center { margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
-/// Center vertically and horizontally: 
-///     .center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-
 /////////////
 /// Fonts ///
 /////////////
@@ -38,7 +24,7 @@
  
 body { margin: 0; padding: 0; background-color: var(--background); color: var(--text); font-size: 16px; font-family: 'Quicksand', 'Arial', 'Verdana', 'Tahoma', serif; }
 
-a { padding: 0.2rem; color: var(--accent); text-decoration: none; transition: 0.2s; }
+a { padding: 0.2rem; color: var(--text); text-decoration: none; transition: 0.2s; }
     a:hover { background-color: var(--background); color: var(--text); outline: 2px ridge var(--accent); outline-offset: -0.2rem; border-radius: 2rem; }
 
 .MobilePhoto { margin: 0; }
@@ -117,14 +103,14 @@ a { padding: 0.2rem; color: var(--accent); text-decoration: none; transition: 0.
 /*                                                        */
 /**********************************************************/
 .HomePage {  }
-    .HomePage h2 { text-align: center; }
+    .HomePage h2 {  }
     .About { width: fit-content; margin: 2rem auto;
         @media (min-width: 540px) { width: 26rem; }
         @media (min-width: 820px) { display: flex; align-items: center; gap: 2rem; width: 92%; }
         @media (min-width: 960px) { width: 54rem; gap: 0; justify-content: space-between; }
      }
         .AboutText {  }
-            .Title { margin: 0; width: fit-content; }
+            .Title { margin: 5rem 0 0; width: fit-content; }
             .Description { line-height: 1.5;
                 @media (min-width: 480px) { max-width: 24rem; }
                 @media (min-width: 820px) { max-width: 40rem; }
@@ -146,3 +132,17 @@ a { padding: 0.2rem; color: var(--accent); text-decoration: none; transition: 0.
             .ProjectDetails { padding: 0 1rem; }
                 .ProjectTitle {  }
                 .ProjectParagraph {  }
+
+//////////////
+/// Useful ///
+//////////////
+
+/// Web safe fonts:
+///     sans-serif: Arial, Verdana, Tahoma, Trebuchet MS; 
+///     serif: Times New Roman, Georgia, Garamondd; 
+///     mono/cursive: Courier New, Brush Script MT 
+/// Center vertically:
+///     .container { height: 200px; position: relative; border: 3px solid green; } 
+///     .vertical-center { margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
+/// Center vertically and horizontally: 
+///     .center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
