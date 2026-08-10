@@ -94,7 +94,7 @@ header, main, footer { padding: 0 1rem;
 /*  timestamp: 15:10 - TODO: | 08:00-12:00                */
 /*                                                        */
 /**********************************************************/
-.HomePage {  }
+.ProjectCategory { scroll-margin-top: 5rem; }
     .HomePage h2 { text-align: center; }
     .About { width: fit-content; margin: 2rem auto;
         @media (min-width: 540px) { width: 26rem; }

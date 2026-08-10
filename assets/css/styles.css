@@ -237,6 +237,10 @@ header, main, footer {
 /*  timestamp: 15:10 - TODO: | 08:00-12:00                */
 /*                                                        */
 /**********************************************************/
+.ProjectCategory {
+  scroll-margin-top: 5rem;
+}
+
 .HomePage h2 {
   text-align: center;
 }
