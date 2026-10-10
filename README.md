@@ -1,2 +1,2 @@
 # INDavid04's Portofolio
-Visit the site: https://indavid04.github.io/portofolio/
+Visit the site: https://indavid04.github.io
